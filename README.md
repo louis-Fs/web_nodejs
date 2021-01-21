@@ -8,5 +8,11 @@
 
 项目来自四川大学网络空间安全学院 【Web应用开发】
 
+配置好环境nodejs，安装npm
+进入webpro2 后 命令：npm start
+开启phpstudy 的mysql 注意更改源代码的访问数据库的用户名和密码
+浏览器访问  localhost:3000
+
+
 若有问题可以发送邮件344735074@qq.com
 组长：jxy  组员：louis-fs、oyc、cyr
