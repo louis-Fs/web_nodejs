@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>注册</title>
+    <link rel="stylesheet" href="/stylesheets/js2.css" type="text/css">
+</head>
+<center>
+    <h1>注册</h1>
+</center>
+
+<body>
+    <center>
+        <div style=" height:200px;width:330px">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="200px" width="330px" background-color="red">
+                <rect width="330px" height="200px" style="fill: red" />
+                <polygon points="50,10 20,80 90,35 10,35 80,80" style="fill: yellow" />
+                <polygon points="111,3 100,27 124,12 97.3,12 121,27" style="fill: yellow" />
+                <polygon points="134,28 123,52 147,37 120.3,37 144,52" style="fill: yellow" />
+                <polygon points="134,63 123,87 147,72 120.3,72 144,87" style="fill: yellow" />
+                <polygon points="111,87 100,112 124,98 97.3,98 121,112" style="fill: yellow" />
+            </svg>
+        </div>
+        <h5>加*为必填</h5>
+        <form action="/users" method="POST" name="from" target="keep" onsubmit="return check()">
+            <table border="1" width="600px">
+                <tr>
+                    <th>名称</th>
+                    <td><input type="text" name="lg" id="" onblur="user()"><text class="text">*</text></td>
+
+                </tr>
+                <tr>
+                    <th>密码</th>
+                    <td><input type="password" name="pass" onblur=" ps() "><text class="text">*</text></td>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="submit" value="提交">
+                    </td>
+                </tr>
+                <table border="1">
+
+                </table>
+            </table>
+        </form>
+        <iframe id="id_iframe" name="Keep" style="display:none;"></iframe>
+        <iframe  name="stop" style="display:none;"></iframe>  
+    </center>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+
+ <script src="/javascripts/js2.js"></script>
+</body>
+
+</html>

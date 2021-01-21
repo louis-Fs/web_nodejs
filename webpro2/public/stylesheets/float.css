@@ -1,0 +1,96 @@
+body{
+	
+}
+#d1{
+    height: 15rem;
+	background-color:lightgreen;
+}
+#d1 img[alt="xusong"]{
+	width:20%;
+	height:90%;
+    border-style: double;
+    border-color: blueviolet;
+    border-width: thick;
+	float:left;
+}
+#d2{
+	height:35rem;
+	width:50%;
+	background-color:lightpink;
+	border-style:dashed;
+	margin:2rem auto;
+ 
+}
+ .d21{
+	width:5rem;
+	height:8rem;
+	margin:1rem;
+	border-style:dashed;
+	background-color:red;
+	float:left;
+}
+ .d22{
+	width:5rem;
+	height:6.5rem;
+	margin:1rem;
+	border-style:dashed;
+	background-color:green;
+	float:left;
+}
+ .d23{
+	width:5rem;
+	height:10rem;
+	margin:1rem;
+	border-style:dashed;
+	background-color:blue;
+	float:right;
+}
+#clear{
+	clear:both;
+}
+#d3{
+    height: 23rem;
+    background-color:lightcoral;
+	border:dotted;
+	margin:1rem 0 1rem 0;
+}
+/*#d30{
+	width:50rem;
+	height:20rem;
+	background-color:lightyellow;
+	margin:2rem auto;
+}*/
+#d31{
+	width:7rem;
+	height:3rem;
+	background-color:lightblue;
+	border:dashed;
+	
+	float:left;
+}
+#d32{
+	width:7rem;
+	height:3rem;
+	background-color:lightblue;
+	border:dashed;
+	margin:0 2rem 0 2rem;
+	float:left;
+}
+#d33{
+	width:50rem;
+	height:3.1rem;
+	background-color:lightblue;
+	border:dashed;
+	margin:2rem auto;
+	/*float:left;*/
+}
+#d3 p{
+	height:10rem;
+	width:50rem;
+	background-color:lightgreen;
+	margin:4rem auto;
+}
+#d4{
+    height: 12rem;
+    background-color:yellow;
+}

@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>星宿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" href="/stylesheets/skeleton.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="stylesheet" href="stylesheets/swiper.min.css">
+
+
+</head>
+
+<body>
+  <header id="top-head">
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <div id="mobile-head">
+            <h1 id="title"><a href="#"><img src="/images/3232.png" alt="星宿" style="width: 150px;height: 80px;"></a></h1>
+            <div id="nav-toggle">
+              <div>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="six columns">
+          <nav id="global_navi">
+            <ul>
+              <li><a href="#">这</a></li>
+              <li><a href="#">里</a></li>
+              <li><a href="#">是</a></li>
+              <li><a href="#">星</a></li>
+              <li><a href="#">の</a></li>
+              <li><a href="#">宿</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="three columns">
+          <input type="text" onkeydown="onKeyDown(event)"
+            style="width: 150px;height: 30px;margin-top: 50px;color: black;" id="search" placeholder="搜索">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script type="text/javascript">
+    function onKeyDown(event){
+      var e = event || window.event || arguments.callee.caller.arguments[0];  
+      var value=$('#search').val();
+      var city;
+      if(e && e.keyCode==13){ 
+        window.localStorage.setItem('value',value);
+        switch(value){
+          case '成都':
+            city='chengdu';
+            break;
+          case '上海':
+            city='shanghai';
+            break;
+          case '北京':
+            city='beijing';
+            break;
+          case '杭州':
+            city='hangzhou';
+            break;
+          case '重庆':
+            city='chongqing';
+            break;
+          case '武汉':
+            city='wuhan';
+            break;
+          case '西安':
+            city='xian';
+            break;
+          case '广州':
+            city='guangzhou';
+            break;
+          default:
+            city=value;
+            break;       
+        }
+        window.location.href='city.html?city='+city;
+      }
+    }
+
+    $(function(){
+      $('#search').mouseover(function(){
+        $('#search').animate({"width":"300px"});
+      }).mouseout(function(){
+        $('#search').animate({"width":"150px"});
+      });
+    });
+
+  </script>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slider">
+          <img src="/images/轮播图.jpg" alt="slider1">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="slider">
+          <img src="/images/轮播图3.jpg" alt="slider2">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="slider">
+          <img src="/images/轮播图2.jpg" alt="slider3">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="slider">
+          <img src="/images/轮播图4.jpg" alt="slider4">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-scrollbar"></div>
+
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <div class="wrl">
+            <div class="rl-inner">
+           <a href="/xqxq.html">   <h1>星&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp宿</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="six columns">
+          <h2 style="text-align: center;margin-top: 40px;">这里是来自星星的民宿<br>
+            -----------------资源数据来自于<a href="https://www.airbnb.cn/">爱彼迎</a><br>
+            -----------------资源数据来自于<a href="http://www.xiaozhu.com/">小猪民宿</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: -100px;margin-bottom: 60px;font-size: 1.3em;">
+    <div>
+      <nav id="global_navi1">
+        <hr>
+        <ul>
+          <li><a href="/city.html?city=shanghai">上海</a></li>
+          <li><a href="/city.html?city=guangzhou">广州</a></li>
+          <li><a href="/city.html?city=xian">西安</a></li>
+          <li><a href="/city.html?city=wuhan">武汉</a></li>
+          <li><a href="#">福州</a></li>
+          <li><a href="#">长乐</a></li>
+          <li><a href="#">达州</a></li>
+          <li><a href="#">蒲家</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </div>
+  </section>
+
+  <section id="concept">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <img src="/images/pinkplanet.png" alt="chengdu">
+        </div>
+        <div class="six columns">
+          <div class="center wow fadeInDown">
+            <h3 class="concept">火星</h3>
+            <p>这是一个充满辣椒的星球</p>
+            <a class="link" href="/city.html?city=chengdu">> 登陆火星</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="box2">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <div class="center wow fadeInDown">
+            <h3 class="concept">水星</h3>
+            <p>这里是一个海的星球</p>
+            <a class="link" href="/city.html?city=shanghai">> 登陆水星</a>
+          </div>
+        </div>
+        <div class="six columns">
+          <img src="/images/shanghai.png" alt="shanghai" style="margin-top: 60px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="concept">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <img src="/images/beijing.png" alt="beijing">
+        </div>
+        <div class="six columns">
+          <div class="center wow fadeInDown" style="margin-top: 150px;">
+            <h3 class="concept">土星</h3>
+            <p>这是一个烤鸭的星球</p>
+            <a class="link" href="/city.html?city=beijing">> 登陆土星</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="box2">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <div class="center wow fadeInDown">
+            <h3 class="concept">木星</h3>
+            <p>这里是一个绿油油的星球</p>
+            <a class="link" href="/city.html?city=hangzhou">> 登陆木星</a>
+          </div>
+        </div>
+        <div class="six columns">
+          <img src="/images/hangzhou.png" alt="hangzhou" style="margin-top: 60px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="box3">
+    <div class="container">
+      <h1 class="center">这里是星球上的房子</h1>
+      <div class="row">
+        <!-- <div class="center-inner">
+
+          
+          这里需要数据库数据库数据库数据库
+        
+
+          <a href="https://www.airbnb.cn/rooms/39825056">
+            <div class="four columns wow fadeInDown">
+              <img src="https://z1.muscache.cn/im/pictures/3d05489b-ccb4-4c81-a3e1-1556c00cb953.jpg" alt="house1"
+                style="width:450px;height:200px">
+              <p>蔚蓝的梦Ce rêve bleu/地铁站步行6分钟/天安门/王府井/国贸/三里屯/北京站/北京南站</p>
+            </div>
+          </a>
+          <div class="four columns wow fadeInDown">
+            <img src="https://z1.muscache.cn/im/pictures/b3363fd3-8863-421e-b3fb-85790ff4d295.jpg" alt="house2"
+              style="width:450px;height:200px">
+            <p>小日子东四南锣张自忠路王府井协和医院解放军总医院投影LOFT</p>
+          </div>
+          <div class="four columns wow fadeInDown">
+            <img src="https://z1.muscache.cn/im/pictures/60fd9d0f-f947-4c31-9b4b-ac06e27d8598.jpg" alt="house3"
+              style="width:450px;height:200px">
+            <p>近天安门故宫明城墙两居</p>
+            <br>
+            <a class="link" href="https://www.airbnb.cn/rooms/40312758">更多房子</a>
+          </div>
+          </a>
+        </div> 
+      </div>
+  </section> -->
+
+  <section class="info" style="background-color: #e9eaed;">
+    <div class="container">
+      <div class="row">
+        <div class="four columns wow fadeInDown">
+          <h2>攻&nbsp&nbsp&nbsp略</h2>
+          <ul>
+            <li>攻略是旅游出行必不可少的东西</li>
+            <li>快来看看攻略快来看看攻略快来看看攻略快来看看攻略</li>
+            <li>快来看看攻略快来看看攻略快来看看攻略快来看看攻略快来看看攻略</li>
+            <li>快来看看攻略快来看看攻略</li>
+            <li><a href="/aby.html" class="header_contact">>开启攻略A</a></li>
+            <li><a href="/aibiyin.html" class="header_contact">>开启攻略B</a></li>
+          </ul>
+        </div>
+        <div class="four columns wow fadeInDown" style="margin-left: 750px;margin-top: -325px;">
+          <img src="/images/111(1).jpg" alt="111">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <p class="pagetop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+  <!-- 
+    
+   -->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+    <address><a href="#"><img src="/images/logo.png" alt="星宿"></a>
+      <p>
+        〒123-4567 ○○成都成都成都成都成都 00-00　00000<br>
+        TEL:123-456-789
+      </p>
+    </address>
+    <small>&copy; 2019 Star&Home. Designed by FJCO </small>
+  </footer>
+  <script src="/javascripts/jquery-3.4.1.min.js"></script>
+  <script src="/javascripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="javascripts/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      parallax: true,
+      speed: 600,
+      loop: true,
+      autoplay: 3000,
+    });
+  </script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+  <script>
+    (function ($) {
+      $(function () {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 350) {
+            $header.addClass('fixed');
+          } else {
+            $header.removeClass('fixed');
+          }
+        });
+        // Nav Toggle Button
+        $('#nav-toggle').click(function () {
+          $header.toggleClass('open');
+        });
+      });
+    })(jQuery);
+  </script>
+</body>
+
+</html>

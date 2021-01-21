@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>星球详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <script src="JavaScripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#mx").click(function () {
+                $("#content1").load("javascripts/xxxq.txt #mxcontent");
+                $("#sx").load("javascripts/xxxq.txt #mx2");
+                $("#sxcf").load("javascripts/xxxq.txt #mxcf");
+            })
+            $("#tx").click(function () {
+                $("#content1").load("javascripts/xxxq.txt #txcontent");
+                $("#sx").load("javascripts/xxxq.txt #tx2");
+                $("#sxcf").load("javascripts/xxxq.txt #txcf");
+            })
+            $("#hx").click(function () {
+                $("#content1").load("javascripts/xxxq.txt #hxcontent");
+                $("#sx").load("javascripts/xxxq.txt #hx2");
+                $("#sxcf").load("javascripts/xxxq.txt #hxcf");
+            })
+            $("#mw").click(function () {
+                $("#content1").load("javascripts/xxxq.txt #mwcontent");
+                $("#sx").load("javascripts/xxxq.txt #mw2");
+                $("#sxcf").load("javascripts/xxxq.txt #mwcf");
+            })
+            $("#hw").click(function () {
+                $("#content1").load("javascripts/xxxq.txt #hwcontent");
+                $("#sx").load("javascripts/xxxq.txt #hw2");
+                $("#sxcf").load("javascripts/xxxq.txt #hwcf");
+            })
+        })
+    </script>
+
+    <style>
+        .bc {
+            background: url(images/bc.png) center top no-repeat;
+            background-size: cover;
+            height: 200px;
+            color: #fff;
+        }
+
+        #feature img {
+            width: 500px;
+            height: 500px;
+        }
+
+        #content1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #header li a {
+            color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="top-head">
+        <div class="container">
+            <div class="row" style="display: initial;">
+                <div class="col-md-3">
+                    <div id="mobile-head">
+                        <h1><a href="index.html"><img src="images/logo.png" alt="風の宿"></a></h1>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="nav nav-pills" id="header" style="display: flex; justify-content: space-around;">
+                        <li><button type="button" class="btn btn-default btn-lg "><a href="xqxq.html">水星</a></button>
+                        </li>
+                        <li><button type="button" class="btn btn-default btn-lg " id="mx">木星</button></li>
+                        <li><button type="button" class="btn btn-default btn-lg " id="tx">土星</button></li>
+                        <li><button type="button" class="btn btn-default btn-lg " id="hx">火星</button></li>
+                        <li><button type="button" class="btn btn-default btn-lg " id="mw">冥王</button></li>
+                        <li><button type="button" class="btn btn-default btn-lg " id="hw">海王</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <a href="contact.html" class="header_contact">预约</a>
+                    <div class="top-number">
+                        <p><i class="fa fa-phone-square"></i> 0123-45-6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bc">
+    </div>
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" id="content1">
+                    <h1>水星</h1>
+                    <p class="text-center">
+                        水星（英语：Mercury，拉丁语：Mercurius），在太阳系八大行星里，水星是离太阳最近的行星。中国古时称为辰星，有着八大行星中最大，比冥王星小的轨道偏心率。它每87.968个地球日绕行太阳一周，而每公转2.01周同时也自转3圈。
+                        水星有着太阳系行星中最大的轨道倾角。水星轨道的近日点每世纪比牛顿力学的预测多出43弧秒（角秒）的进动，这种现象直到20世纪才从爱因斯坦的广义相对论得到解释。</p>
+                    <img src="images/01.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section id="box2">
+        <div class="container">
+            <div class="row" id="sx">
+                <div class="col-md-4">
+                    <img src="images/02.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                        <h3 class="concept">水星记</h3>
+                        <p>等到看你银色满际</p>
+                        <p>等到分不清季节更替</p>
+                        <p>才敢说沉溺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box2">
+        <div class="container">
+            <div class="row" id="sxcf">
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                        <h3 class="concept">水星成分</h3>
+                        <p>这是一个关于水星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>体积</td>
+                                </tr>
+                                <tr>
+                                    <td>辰星</td>
+                                    <td>-173℃-427℃</td>
+                                    <th>58.646 d</td>
+                                    <td>6.083×10¹⁰㎞³ </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/03.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>
+        </div>
+    </section>
+<p class=" pagetop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+                    <!--サイトマップ-->
+                    <section id="bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="four columns">
+                                    <div id="footer_nav">
+                                        <h3 class="center">返回详情</h3>
+                                        <ul>
+                                                <li><a href="/xqxq.html">星宿主页</a></li>
+                                                <li><a href="/aibiyin.html">攻略攻略</a></li>             
+                                                <li><a href="/test/contact.html">联系我们</a></li>
+                                            </ul>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="four columns">
+                                    <h3 class="center">提醒事项</h3>
+                                    <ul>
+                                        <li>携带证件</li>
+                                        <li>充足保暖</li>
+                                        <li>不可自带食品</li>
+                                        <li>看管好老人和小孩</li>
+                                    </ul>
+                                </div>
+                                <div class="four columns">
+                                    <h3 class="center">地点</h3>
+                                    <p>星球漫步十分钟</p>
+                                    <iframe src="ditu.html" width="300px" height="200px" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+                            </div>
+                        </div>
+                        <address><a href="index.html"><img src="/images/logo.png" alt="風の家"></a>
+                            <p>
+                                四川大学江安校区<br>
+                                TEL:123-456-789
+                            </p>
+                        </address>
+                        <small>&copy; 2019 Planet Program. Designed by <a href="/test/contact.html">US</a> </small>
+                    </footer>
+                    <script src=" https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"> </script>
+                    <!-- 最新的 Bootstrap 核心 JavaScript 文件
+                        -->
+                    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

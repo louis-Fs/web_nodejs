@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href='stylesheets/index.css' type="text/css">
+  <link rel="stylesheet" href="stylesheets/bootstrap-4.3.1/dist/css/bootstrap.css" type="text/css">
+</head>
+
+<body>
+  <h1>
+    <a href="https://www.baidu.com/" style="text-decoration:none">
+      <center>
+        <font size="10" color="dark">
+          登录系统
+        </font>
+      </center>
+    </a>
+  </h1>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/l1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>梧桐灯</h5>
+            <p>梧桐树荫了整条街</p>
+            <p>灯火穿透了她的叶</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/l2.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>绝代风华</h5>
+            <p>曾经年少鲜衣怒马</p>
+            <p>寒沙里征战与杀伐</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/l3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>想象之中</h5>
+            <p>抬起了头 瑟瑟灰色天空</p>
+            <p>想象之中 付出会有结果</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/l4.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>惊鸿一面</h5>
+            <p>柳下闻瑶琴起舞和一曲</p>
+            <p>仿佛映当年翩若惊鸿影</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <center>
+
+    </br>
+  </center>
+  <div>
+    <center>
+
+      <form action="/" method="POST" name="login" onsubmit="return  validateLogin()">
+        <table border="5">
+
+          <tr>
+            <td>用户</td>
+            <td><input type="text" name="user" onblur="use()"><text class="text"></text></td>
+
+          </tr>
+          <tr>
+            <td>密码</td>
+            <td><input type="password" name="pass" onblur="ps()"><text class="text"></text></td>
+          </tr>
+
+          <tr>
+            <td><input type="submit" name="button" value="登录"><text id="text"></text></td>
+            <td><text class="text">若未注册请先注册<a href="/users"><input type="button" name="button" value="注册"></a></text>
+            </td>
+
+          </tr>
+        </table>
+      </form>
+    </center>
+  </div>
+  
+  <script src="javascripts/jquery-3.4.1.js"></script>
+  <script src="stylesheets/bootstrap-4.3.1/dist/js/bootstrap.js"></script>
+  <script src="/javascripts/index1.js"></script>
+</body>
+
+</html>

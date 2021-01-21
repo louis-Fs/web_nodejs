@@ -1,0 +1,25 @@
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.topbody {
+    background: url(../images/top.jpg) center top no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+  }
+  .room {
+    background: url(../images/room-topbody.jpg) center top no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+  }
+  
+  .kannai {
+    background: url(../images/kannai-topbody.jpg) center top no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+  }
+  
+#host p{
+  border-left:black 2px solid ;
+}

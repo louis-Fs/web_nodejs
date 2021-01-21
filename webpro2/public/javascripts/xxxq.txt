@@ -1,0 +1,234 @@
+<div class="col-md-12" id="mxcontent" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>木星</h1>
+    <p class="text-center">
+    木星（Jupiter）是太阳系八大行星中体积最大、自转最快的行星，从内向外的第五颗行星。它的质量为太阳的千分之一，是太阳系中其它七大行星质量总和的2.5倍。由于木星与土星、天王星、海王星皆属气体行星，因此四者又合称类木行星（木星和土星合称气态巨行星）。木星是一个气态巨行星，占所有太阳系行星质量的70%，主要由氢组成，占其总质量的75%，其次为氦，占总质量的25%，岩核则含有其他较重的元素。人类所看到的通常是大气中云层的顶端，压强比1个大气压略高。</p>
+    <img src="images/02.jpg" alt="お料理" />
+ </div>
+  <div class="row" id="mx2">
+                <div class="col-md-4">
+                    <img src="images/03.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                    <h3 class="concept">木星的知识</h3>
+                    <p>木星的大红斑位于南纬23°处，东西长4万公里，南北宽1.3万公里。探测器发现，大红斑是一团激烈上升的气流，呈深褐色。这个彩色的气旋以逆时针方向转动。在大红斑中心部分有个小颗粒，是大红斑的核，其大小约几百公里。这个核在周围的反时针漩涡运动中维持不动。大红斑的寿命很长，可维持几百年或更久。大红斑的豔丽红色令人印象深刻，颜色似乎来自红磷。</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="row" id="mxcf">
+                <div class="col-md-8" >
+                     <div class="center wow fadeInDown">
+                        <h3 class="concept">木星成分</h3>
+                        <p>这是一个关于木星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>体积</td>
+                                </tr>
+                                <tr>
+                                    <td>岁星</td>
+                                    <td>-148℃</td>
+                                    <th>9h50min30s</td>
+                                    <td>1.4313×10^15km³ </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/04.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>
+
+<div class="col-md-12" id="txcontent" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>土星</h1>
+    <p class="text-center">
+    土星有一个美丽及幽远的行星光环，（可以通过望远镜直接观测），主要的成分是冰的微粒和较少数的岩石以及等离子。已经确认的土星的卫星总共有82颗。其中，土卫六是土星系统中最大和太阳系中第二大的卫星（半径2575Km）（太阳系最大的卫星是木星的木卫三，半径2631Km）。
+天文学家通过分析红外线影像发现土星有一个“温暖”的极地漩涡，这种特征在太阳系内是独一无二的。天文学家认为这个点是土星上温度最高的点，土星上其他各处的温度是-185 ℃，而该漩涡处的温度则高达-122 ℃。</p>
+    <img src="images/03.jpg" alt="お料理" />
+ </div>
+  <div class="row" id="tx2">
+                <div class="col-md-4">
+                    <img src="images/04.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                    <h3 class="concept">土星的知识</h3>
+                    <p>1610年，意大利天文学家伽利略观测到在土星的球状本体旁有奇怪的附属物。1659年，荷兰学者惠更斯证实这是离开本体的光环。1675年意大利天文学家卡西尼，发现土星光环中间有一条暗缝（后称卡西尼环缝），他还猜测光环是由无数小颗粒构成。两个多世纪后的分光观测证实了他的猜测，但在这二百年间，土星环通常被看做是一个或几个扁平的固体物质盘。直到1856年，英国物理学家麦克斯韦从理论上论证了土星环是无数个小卫星在土星赤道面上绕土星旋转的物质系统。</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="row" id="txcf">
+                <div class="col-md-8" >
+                     <div class="center wow fadeInDown">
+                        <h3 class="concept">土星成分</h3>
+                        <p>这是一个关于土星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>卫星数量</td>
+                                </tr>
+                                <tr>
+                                    <td>镇星</td>
+                                    <td>-191.15℃～-130.15℃</td>
+                                    <th>10.546h </td>
+                                    <td>83</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/05.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>
+<div class="col-md-12" id="hxcontent" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>火星</h1>
+    <p class="text-center">
+    火星基本上是沙漠行星，地表沙丘、砾石遍布且没有稳定的液态水体（2015年9月28日，美国宇航局公布火星上有少量的水。据法新社2018年7月25日报道，欧洲航天局(ESA)的研究员称，火星上发现了第一个液态地下水湖）。二氧化碳为主的大气既稀薄又寒冷，沙尘悬浮其中，每年常有尘暴发生。火星两极皆有水冰与干冰组成的极冠会随着季节消长。</p>
+    <img src="images/04.jpg" alt="お料理" />
+ </div>
+  <div class="row" id="hx2">
+                <div class="col-md-4">
+                    <img src="images/05.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                    <h3 class="concept">火星上夕阳是蓝色的吗</h3>
+                    <p>火星大气稀薄，尘埃颗粒较多且较大，主要发生米尔散射，散射波长跟自身颗粒大小相同的红光，而视线方向上来太阳光中红色部分被散射了，所以看到的夕阳会偏蓝。</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="row" id="hxcf">
+                <div class="col-md-8" >
+                     <div class="center wow fadeInDown">
+                        <h3 class="concept">火星成分</h3>
+                        <p>这是一个关于火星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>卫星数量</td>
+                                </tr>
+                                <tr>
+                                    <td>荧惑星</td>
+                                    <td>-5℃ - -87℃ </td>
+                                    <th>24.6229h  </td>
+                                    <td>2（火卫一、火卫二）</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/06.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>
+
+<div class="col-md-12" id="mwcontent" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>冥王星</h1>
+    <p class="text-center">罗马神话中，普鲁托（希腊人称冥界的首领为Hades哈迪斯）是冥界的恶灵。这颗行星得到这个名字是由于他离太阳太远以致于一直沉默在无尽的黑暗之中，与人们想象的冥境相似。另外，凑巧的是，冥王星（Pluto）开头的两字母也是其发现者Percival Lowell名字的首字母缩写。曾经是太阳系中脱离行星的最远矮小行星。（不过由于其特殊的椭圆形轨道无法盖住海王星的运行轨道，所以它的运行轨道会与海王星的有部分重合）</p>
+    <img src="images/05.jpg" alt="お料理" />
+ </div>
+  <div class="row" id="mw2">
+                <div class="col-md-4">
+                    <img src="images/06.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                    <h3 class="concept">冰冷的矮行星——冥王星</h3>
+                    <p>由于冥王星距离地球很远，人们一直对它的大小或表面状况知之甚少。直到2015年，NASA的“新视野”太空探测器近距离探测到冥王星，我们才了解到冥王星的直径为2,370公里，不到地球直径的五分之一，只有月球的三分之二。 
+新视野飞船揭示了冥王星的各种表面特征，包括达到高达3,500米的山脉，这与地球上的落基山脉相当。 虽然甲烷和氮冰覆盖了冥王星的大部分表面，但这些材料不够强势，还不足以支撑如此巨大的高峰，所以科学家怀疑山脉是在水冰基岩上形成的。 
+冥王星的表面还覆盖着大量的甲烷冰，但新视野的科学家们观察到冰层在这颗矮行星表面反射光的方式有很大差异。 冥王星还拥有看起来像蛇皮的冰脊地形; 天文学家发现与地球的penitentes地形或山地上的侵蚀形成的特征相似的特征。地球的地形特征只有几米高，而冥王星估计高达500米。</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="row" id="mwcf">
+                <div class="col-md-8" >
+                     <div class="center wow fadeInDown">
+                        <h3 class="concept">冥王星成分</h3>
+                        <p>这是一个关于冥王星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>卫星数量</td>
+                                </tr>
+                                <tr>
+                                    <td>冥神星</td>
+                                    <td>-223℃ </td>
+                                    <th>6日9小时17分36秒(逆自转) </td>
+                                    <td>5</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/07.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>
+
+<div class="col-md-12" id="hwcontent" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>海王星</h1>
+    <p class="text-center">海王星（Neptune），是太阳系八大行星中的远日行星。按照行星与太阳的距离排列，海王星是第八颗行星，直径上是第四大行星，质量上是第三大行星。海王星的亮度仅为7.85等，只有在天文望远镜里才能看到它。由于它那荧荧的淡蓝色光，所以西方人用罗马神话中的海神——尼普顿（Neptune）”的名字来称呼它。在中文里，把它译为海王星。</p>
+    <img src="images/07.jpg" alt="お料理" />
+ </div>
+  <div class="row" id="hw2">
+                <div class="col-md-4">
+                    <img src="images/08.jpg" alt="お料理" style=" width: 300px;
+                 height: 300px;" />
+                </div>
+                <div class="col-md-8">
+                    <div class="center wow fadeInDown">
+                    <h3 class="concept">海王星的知识</h3>
+                    <p>海王星是太阳系八大行星中距离太阳最远的，体积是太阳系第四大，但质量排名是第三。海王星的质量大约是地球的17倍，而类似双胞胎的天王星因密度较低，质量大约是地球的14倍。海王星大气层85%是氢气，13%是氦气，2%是甲烷，除此之外还有少量氨气。在大气层中的甲烷，只是使行星呈现蓝色的一部分原因。因为海王星的蓝色比有同样份量的天王星更为鲜艳，因此应该还有其他的成分对海王星明显的颜色有所贡献</p>
+                    </div>
+                </div>
+            </div>
+
+<div class="row" id="hwcf">
+                <div class="col-md-8" >
+                     <div class="center wow fadeInDown">
+                        <h3 class="concept">海王星成分</h3>
+                        <p>这是一个关于海王星的基本成分表</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <td>别称</td>
+                                    <td>温度</td>
+                                    <td>自转周期</td>
+                                    <td>表面重力</td>
+                                </tr>
+                                <tr>
+                                    <td>笔尖下的行星</td>
+                                    <td>--214℃ </td>
+                                    <th>15h 57min 59s </td>
+                                    <td>1.14 g </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/01.jpg" style="width: 300px;height: 300px;" "/>
+                </div>
+            </div>

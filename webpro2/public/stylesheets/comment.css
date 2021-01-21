@@ -1,0 +1,28 @@
+#content{
+    width: 90%;
+    margin: auto;
+    background-color: azure;
+}
+
+#content p{
+    border-left: black solid 2px;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to bottom right, #000, #2073c2 60%, #dff6ff);
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0.4px 0.4px 0.4px 0px #fff;
+  }
+
+  .top {
+    background: url(../images/top2.png) center top no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+  }

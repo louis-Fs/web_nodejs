@@ -1,0 +1,144 @@
+<section class="guest">
+  <!-- 用户的各种信息 -->
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/users.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">房子很干净，姐姐人也挺好。</p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">慕剑楠</p>
+          <p class="guest_time">入住时间：2019年10月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/info.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">房子很干净很好看,喜欢房间的大镜子,晚上用投影仪看个综艺巴适得很嘻嘻嘻,老板人也很好,帮我们修无线网,很开心</p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">UniqueDevil</p>
+          <p class="guest_time">入住时间：2019年11月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/really.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">优点:房间挺舒服的,也干净｡ 缺点:女生化妆的话可能要在厕所化,因为客厅的大化妆镜灯光太暗｡
+            建议:去坐轻轨2号的路上要爬一座很高很长的楼梯,其实楼梯左边就是电梯入口,一块钱一次,省很多力气跟时间</p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">Passerby</p>
+          <p class="guest_time">入住时间：2019年9月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+
+
+<section class="guest2">
+  <!-- 用户的各种信息 -->
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/so_hard.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">交通方便 位置很好 离解放碑洪崖洞都很近 屋内设施齐全</p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">吴云佳</p>
+          <p class="guest_time">入住时间：2019年7月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/get.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">位置还是很不错的,解放碑打车过去起步价就行,离地铁口步行十分钟左右就到了,热水器第一天刚去的时候水冷的,后来房东十二点多还来帮我调,才知道是我们没有操作好的原因,房东辛苦啦!
+          </p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">nan</p>
+          <p class="guest_time">入住时间：2019年6月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <hr>
+    <div class="center wow fadeInDown">
+      <div class="row">
+        <div class="guest_pic col-xs-2 col-sm-2">
+          <img class="img-circle img-responsive" src="/images/cry.png" height=100" width="100" alt="" title=""
+            style="border: radius 50%;">
+        </div>
+        <div class="host_say col-xs-5 col-sm-5">
+          <p class="guest_say">和照片几乎一样~房子不大,但够用,五脏俱全,很适合和朋友一起度过安静的时光｡设备有丢丢旧,但也算很良心的民宿了~很好的体验!</p>
+        </div>
+        <div class="guest_detail col-xs-2 col-sm-2">
+          <p class="guest_name">Sulkio</p>
+          <p class="guest_time">入住时间：2019年8月</p>
+        </div>
+        <div class="col-xs-3 col-sm-3">
+          <p id="scores"></p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
